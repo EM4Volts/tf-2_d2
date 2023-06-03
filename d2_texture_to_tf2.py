@@ -1,6 +1,5 @@
 from PIL import Image
 import sys,os
-from wand import image
 from PIL import Image, ImageEnhance
 from PIL import ImageOps
 
