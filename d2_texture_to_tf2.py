@@ -161,6 +161,10 @@ def generate_repak_map(asset_path, name):
 
 if __name__ == "__main__":
     in_dir = sys.argv[1]
+    #clean up the output folder
+    if os.path.exists("output"):
+        for filename in os.scandir("output"):
+            os.remove(filename.path)
     make_materials(in_dir)
     output(in_dir)
     convert_textures("output")
