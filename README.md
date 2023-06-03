@@ -39,3 +39,10 @@ open a command line in the directory your script is in, execute the script on yo
 
 The script will output your dds files to the newly created "output" folder, and your repak map to the maps folder, you can now copy the images to your repak folder the script tells you in the cmd.
 run repak and your done.
+
+
+## License
+
+[GPL3](https://github.com/EM4Volts/tf-2_substance_maker/blob/main/LICENSE)
+
+Textconv.exe from Microsofts DirectXTex tools [DIREXTXTEX](https://github.com/microsoft/DirectXTex)
