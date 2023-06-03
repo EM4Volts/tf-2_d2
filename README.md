@@ -12,7 +12,8 @@ Make sure you have Python 3.10+ installed and the imagemagick module installed [
 ## Usage
 in the directory of the script make a folder with the same name as the folder in the weapons_r2 directory that you want your materials to be in,
 
-for each material you are making make another folder and put its XXXX_diffuse, XXXX_normal and XXXX_gstack png files in.
+for each material you are making make another folder and put its XXXX_diffuse, XXXX_normal and XXXX_gstack png files in, 
+# MAKE SURE YOUR DIFFUSE IS BAKED, IF NOT YOU WILL NOT HAVE THE WEAPON COLORED, MAKE SURE THE DIFFUSE IS A BAKED ONE WITH THE PROPER COLORING
 
 Example file structure:
 ```
