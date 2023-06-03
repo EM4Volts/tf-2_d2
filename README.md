@@ -15,7 +15,7 @@ in the directory of the script make a folder with the same name as the folder in
 for each material you are making make another folder and put its XXXX_diffuse, XXXX_normal and XXXX_gstack png files in.
 
 Example file structure:
-``
+```
 .
 └── D2Tex_2_TF2/
     ├── base_pak.json
@@ -31,7 +31,7 @@ Example file structure:
             ├── XXXX_normal.png
             ├── XXXX_diffuse.png
             └── XXXX_gstack.png
-     ``
+ ```
 In the example we will be creating 2 materials, "body" and "stock" in the "texture/models/weapons_r2/battle_rifle/" directory
 
 open a command line in the directory your script is in, execute the script on your folder, in the example `py d2_texture_to_tf2.py battle_rifle` (note that "py" may not work for you, depends on how your installation of python is setup)
