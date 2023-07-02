@@ -8,6 +8,8 @@ Download the latest release zip and unzip somewhere on your PC (only tested on w
 
 Make sure you have Python 3.10+ installed and the imagemagick module installed [Instructions](https://pillow.readthedocs.io/en/stable/installation.html)
 
+Also make sure to have PILLOW installed via pip: [install](https://pillow.readthedocs.io/en/stable/installation.html#)
+
 
 ## Usage
 in the directory of the script make a folder with the same name as the folder in the weapons_r2 directory that you want your materials to be in,
